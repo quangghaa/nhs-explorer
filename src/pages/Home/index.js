@@ -39,7 +39,6 @@ const Home = () => {
         contentTypeList: latestTrans
     } = useContentTypeList('transactions/recent');
 
-    console.log(latestTrans);
     const navigate = useNavigate();
 
     const onAllBlock = () => {
