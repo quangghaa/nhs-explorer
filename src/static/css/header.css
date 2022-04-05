@@ -1,0 +1,11 @@
+.myheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

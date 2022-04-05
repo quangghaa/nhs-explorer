@@ -1,0 +1,73 @@
+.bg-img {
+    background-image: url("../img/bg-img.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 1;
+    color: white;
+    padding: 4em 0 0 0;
+    margin-top: -4em;
+}
+
+.footer {
+    text-align: left;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: unset;
+    margin: unset;
+}
+
+.footer ul li {
+    line-height: 28px;
+    color: #cccccc;
+}
+
+.footer ul li:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+.footer h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.footer h4 {
+    font-size: 18px;
+    color: white;
+}
+
+.footer .hr {
+    color: red;
+    width: 80%;
+    margin: 1em 0;
+} 
+
+.outside-hr {
+    margin: 1em 0;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    font-size: 28px;
+    color: #cccccc;
+}
+
+.icons span {
+    margin-left: 5px;
+}
+
+.icons span:hover {
+    cursor: pointer;
+    color: white;
+}
